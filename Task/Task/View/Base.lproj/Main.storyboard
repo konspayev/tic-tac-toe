@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i4R-av-FlJ">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tic Tac Toe-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Task" customModuleProvider="target" sceneMemberID="viewController">
@@ -34,7 +34,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mot-hr-acM">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                                <color key="backgroundColor" systemColor="underPageBackgroundColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="2Cl-dw-q8r"/>
                                                     <constraint firstAttribute="height" constant="80" id="sgF-dy-TMf"/>
@@ -47,7 +47,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eck-R7-jDZ">
                                                 <rect key="frame" x="95" y="0.0" width="80" height="80"/>
-                                                <color key="backgroundColor" systemColor="underPageBackgroundColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="At1-cO-h9v"/>
                                                     <constraint firstAttribute="width" constant="80" id="MeW-0w-9uw"/>
@@ -60,7 +60,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uz3-3i-5Ae">
                                                 <rect key="frame" x="190" y="0.0" width="80" height="80"/>
-                                                <color key="backgroundColor" systemColor="underPageBackgroundColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="Jjh-oL-aqt"/>
                                                     <constraint firstAttribute="height" constant="80" id="snY-Xw-00F"/>
@@ -78,7 +78,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U14-AL-EPg">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                                <color key="backgroundColor" systemColor="underPageBackgroundColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="OwB-8b-FsR"/>
                                                     <constraint firstAttribute="height" constant="80" id="pYc-6r-oaB"/>
@@ -91,7 +91,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QGM-7d-EmA">
                                                 <rect key="frame" x="95" y="0.0" width="80" height="80"/>
-                                                <color key="backgroundColor" systemColor="underPageBackgroundColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="Hdc-TE-ti7"/>
                                                     <constraint firstAttribute="height" constant="80" id="zGC-3B-O77"/>
@@ -104,7 +104,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEd-jX-fHz">
                                                 <rect key="frame" x="190" y="0.0" width="80" height="80"/>
-                                                <color key="backgroundColor" systemColor="underPageBackgroundColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="qhk-Md-022"/>
                                                     <constraint firstAttribute="height" constant="80" id="uTN-m6-bBk"/>
@@ -122,7 +122,7 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVx-XW-sjv">
                                                 <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                                <color key="backgroundColor" systemColor="underPageBackgroundColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="B0V-yp-Old"/>
                                                     <constraint firstAttribute="height" constant="80" id="Cut-oe-4no"/>
@@ -135,7 +135,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBF-Pt-eVd">
                                                 <rect key="frame" x="95" y="0.0" width="80" height="80"/>
-                                                <color key="backgroundColor" systemColor="underPageBackgroundColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="OW4-Ie-AvT"/>
                                                     <constraint firstAttribute="height" constant="80" id="e7M-Yv-dDs"/>
@@ -148,7 +148,7 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWB-Bd-1OY">
                                                 <rect key="frame" x="190" y="0.0" width="80" height="80"/>
-                                                <color key="backgroundColor" systemColor="underPageBackgroundColor"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="fw4-QH-7Hz"/>
                                                     <constraint firstAttribute="width" constant="80" id="zOt-WZ-30a"/>
@@ -165,8 +165,8 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsz-l0-5DC">
                                 <rect key="frame" x="157" y="624" width="79" height="34.333333333333371"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Restart"/>
                                 <connections>
@@ -176,6 +176,7 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="tintColor" systemColor="systemYellowColor"/>
                         <constraints>
                             <constraint firstItem="tsz-l0-5DC" firstAttribute="top" secondItem="vqO-kx-t4F" secondAttribute="bottom" constant="70" id="L3B-5y-vkX"/>
                             <constraint firstItem="vqO-kx-t4F" firstAttribute="top" secondItem="0xB-nZ-zad" secondAttribute="bottom" constant="40" id="S96-zg-UAd"/>
@@ -186,6 +187,7 @@
                             <constraint firstItem="vqO-kx-t4F" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="wus-Bk-TLK"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Tic Tac Toe" style="editor" id="oJX-1d-4ZO"/>
                     <connections>
                         <outlet property="winLabel" destination="0xB-nZ-zad" id="P5C-QT-pHe"/>
                         <outletCollection property="arrayButton" destination="Mot-hr-acM" collectionClass="NSMutableArray" id="pYq-fF-0p3"/>
@@ -201,18 +203,122 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="3542.7480916030531" y="3.5211267605633805"/>
+        </scene>
+        <!--Tic Tac Toe-->
+        <scene sceneID="lcM-cf-53v">
+            <objects>
+                <viewController id="ugQ-Xc-mTX" customClass="StartViewController" customModule="Task" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gts-XK-aTZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LMU-ja-GuW">
+                                <rect key="frame" x="118.66666666666669" y="308.66666666666669" width="156" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Играть с другом"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="withFriend" id="9re-Nz-9Nn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zk6-dP-EqK">
+                                <rect key="frame" x="92" y="393.66666666666669" width="209" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Играть с компьютером"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="withComputer" id="Us8-Rs-Xow"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lJj-iN-WX1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="LMU-ja-GuW" firstAttribute="centerX" secondItem="gts-XK-aTZ" secondAttribute="centerX" id="0vp-mh-jg6"/>
+                            <constraint firstItem="Zk6-dP-EqK" firstAttribute="centerX" secondItem="gts-XK-aTZ" secondAttribute="centerX" id="l2H-p5-KrQ"/>
+                            <constraint firstItem="LMU-ja-GuW" firstAttribute="centerY" secondItem="gts-XK-aTZ" secondAttribute="centerY" constant="-100" id="mul-jw-rTC"/>
+                            <constraint firstItem="Zk6-dP-EqK" firstAttribute="top" secondItem="LMU-ja-GuW" secondAttribute="bottom" constant="50" id="sQ2-Go-ypa"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tic Tac Toe" id="t1K-Gc-nBo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yrG-Xw-zyH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2802.2900763358775" y="3.5211267605633805"/>
+        </scene>
+        <!--Tic Tac Toe-->
+        <scene sceneID="eVl-xw-gd9">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gZT-7M-e6N" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tic Tac Toe" image="grid" catalog="system" id="a2p-xu-r1c">
+                        <color key="badgeColor" systemColor="systemYellowColor"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EjM-Zt-OGo">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ugQ-Xc-mTX" kind="relationship" relationship="rootViewController" id="v85-Fa-HZ6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pvw-2o-dXw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2063.3587786259541" y="3.5211267605633805"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="mtX-s5-AlA">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="i4R-av-FlJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="irs-Zh-zEr">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemYellowColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="gZT-7M-e6N" kind="relationship" relationship="viewControllers" id="fk0-hm-1ir"/>
+                        <segue destination="mZW-ly-HkC" kind="relationship" relationship="viewControllers" id="oSo-El-lLd"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iZd-7e-2v6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1311" y="4"/>
+        </scene>
+        <!--Help-->
+        <scene sceneID="ICL-OE-YUX">
+            <objects>
+                <viewController id="mZW-ly-HkC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4eu-IX-Ffm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Cnv-u3-bHN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Help" image="questionmark.bubble" catalog="system" id="E4m-5C-LL5">
+                        <color key="badgeColor" systemColor="systemYellowColor"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OCt-jC-G1Q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1311" y="704"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="9re-Nz-9Nn"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="grid" catalog="system" width="128" height="113"/>
+        <image name="questionmark.bubble" catalog="system" width="128" height="110"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="underPageBackgroundColor">
-            <color red="0.70980392156862748" green="0.71764705882352942" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

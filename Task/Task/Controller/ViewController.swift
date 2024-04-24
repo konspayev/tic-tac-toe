@@ -43,14 +43,16 @@ class ViewController: UIViewController {
     
     @IBOutlet var winLabel: UILabel!
     @IBOutlet var arrayButton: [UIButton]!
+    
     @IBAction func restart(_ sender: UIButton) {
         for i in arrayButton.indices {
             let button = arrayButton[i]
             button.setTitle("", for: .normal)
-            button.isEnabled = false
+            button.isEnabled = true
         }
         winLabel.text = ""
         game.restart()
+        updateView()
     }
 
     
