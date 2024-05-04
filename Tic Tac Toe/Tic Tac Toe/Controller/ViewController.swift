@@ -34,7 +34,7 @@ class ViewController: UIViewController {
             }
         }
         if let win = game.win() {
-            winLabel.text = "Winner \(win)"
+            winLabel.text = "Winner: \(win)"
             for i in arrayButton {
                 i.isEnabled = false
             }
