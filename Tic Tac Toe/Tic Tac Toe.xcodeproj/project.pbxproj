@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B05A0032BE64AB900E43FDD /* HaloHandletter.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6B05A0022BE64AB900E43FDD /* HaloHandletter.otf */; };
 		6B1C451E2BD6B0520038A516 /* XO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C451D2BD6B0520038A516 /* XO.swift */; };
 		6B1C45202BD6B0D20038A516 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C451F2BD6B0D20038A516 /* TicTacToe.swift */; };
 		6BC9BA0F2BD951BE0009DAEA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC9BA0E2BD951BE0009DAEA /* StartViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B05A0022BE64AB900E43FDD /* HaloHandletter.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HaloHandletter.otf; path = Fonts/HaloHandletter.otf; sourceTree = "<group>"; };
 		6B1C451D2BD6B0520038A516 /* XO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XO.swift; sourceTree = "<group>"; };
 		6B1C451F2BD6B0D20038A516 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
 		6BC9BA0E2BD951BE0009DAEA /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		6BB0B2082BE63DE8006B67E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		BE5724DE2BD4110400C0345B = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +103,10 @@
 				6B1C451B2BD6B02C0038A516 /* Controller */,
 				BE5724EA2BD4110400C0345B /* AppDelegate.swift */,
 				BE5724EC2BD4110400C0345B /* SceneDelegate.swift */,
+				6BB0B2082BE63DE8006B67E8 /* Fonts */,
 				BE5724F32BD4110500C0345B /* Assets.xcassets */,
 				BE5724F82BD4110500C0345B /* Info.plist */,
+				6B05A0022BE64AB900E43FDD /* HaloHandletter.otf */,
 			);
 			path = "Tic Tac Toe";
 			sourceTree = "<group>";
@@ -158,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B05A0032BE64AB900E43FDD /* HaloHandletter.otf in Resources */,
 				BE5724F42BD4110500C0345B /* Assets.xcassets in Resources */,
 				BE5724F72BD4110500C0345B /* Base in Resources */,
 				BE5724F22BD4110400C0345B /* Base in Resources */,
