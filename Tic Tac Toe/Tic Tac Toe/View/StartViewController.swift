@@ -18,6 +18,9 @@ class StartViewController: UIViewController {
         if segue.identifier == "withComputer" {
             let destination = segue.destination as! ViewController
             destination.game.isComputer = true
+        } else {
+            let destination = segue.destination as! ViewController
+            destination.game.isComputer = false
         }
     }
     

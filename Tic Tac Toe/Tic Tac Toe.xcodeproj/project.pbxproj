@@ -66,10 +66,17 @@
 			isa = PBXGroup;
 			children = (
 				6BC9BA0E2BD951BE0009DAEA /* StartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6B9011722BE6577E00154E0A /* Base */ = {
+			isa = PBXGroup;
+			children = (
 				BE5724F02BD4110400C0345B /* Main.storyboard */,
 				BE5724F52BD4110500C0345B /* LaunchScreen.storyboard */,
 			);
-			path = View;
+			path = Base;
 			sourceTree = "<group>";
 		};
 		6BB0B2082BE63DE8006B67E8 /* Fonts */ = {
@@ -98,6 +105,7 @@
 		BE5724E92BD4110400C0345B /* Tic Tac Toe */ = {
 			isa = PBXGroup;
 			children = (
+				6B9011722BE6577E00154E0A /* Base */,
 				6B1C451A2BD6B0190038A516 /* Model */,
 				6B1C451C2BD6B0350038A516 /* View */,
 				6B1C451B2BD6B02C0038A516 /* Controller */,
