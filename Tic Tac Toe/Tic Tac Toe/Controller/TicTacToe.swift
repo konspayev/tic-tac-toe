@@ -86,7 +86,7 @@ class TicTacToe {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
                 guard let button = click else { return }
                 self.viewController?.click1(button)
-                self.viewController?.click1(enabledButtons![Int.random(in: 0...enabledButtons!.count-1)])
+                //self.viewController?.click1(enabledButtons![Int.random(in: 0...enabledButtons!.count-1)])
             }
         }
     }
