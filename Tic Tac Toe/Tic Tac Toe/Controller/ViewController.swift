@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Task
+//  Tic Tac Toe
 //
-//  Created by astanahub on 20.04.2024.
+//  Created by Nursultan Konspayev on 20.04.2024.
 //
 
 import UIKit
@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.updateView()
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func click1(_ sender: UIButton) {

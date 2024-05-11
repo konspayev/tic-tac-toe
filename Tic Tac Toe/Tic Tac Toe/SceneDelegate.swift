@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Task
+//  Tic Tac Toe
 //
-//  Created by astanahub on 20.04.2024.
+//  Created by Nursultan Konspayev on 20.04.2024.
 //
 
 import UIKit

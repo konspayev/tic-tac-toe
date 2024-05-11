@@ -1,6 +1,6 @@
 //
 //  StartViewController.swift
-//  Task
+//  Tic Tac Toe
 //
 //  Created by Nursultan Konspayev on 24.04.2024.
 //

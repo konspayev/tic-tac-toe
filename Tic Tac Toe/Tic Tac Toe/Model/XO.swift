@@ -1,6 +1,6 @@
 //
 //  XO.swift
-//  Task
+//  Tic Tac Toe
 //
 //  Created by Nursultan Konspayev on 22.04.2024.
 //
